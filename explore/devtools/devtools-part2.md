@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are strings, not ints in the script because .value returns strings.
+2. I'd fix it by making it so that num1 and num2 are registered as numbers when result is being initialized.
